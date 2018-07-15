@@ -1,18 +1,15 @@
 import React from 'react';
 
+import TaskPanel from './TaskPanel';
+
 import "./tasks.css";
 class Tasks extends React.Component {
   render() {
     return (
       <div className="Tasks">
-        <div className="TasksPanel">
-          <h3 className="TasksPanel__title">
-            Completed tasks
-          </h3>
-          <p className="TasksPanel__completed">
-            15
-          </p>
-        </div>
+        <TaskPanel label="Completed Tasks" val="15" />
+        <TaskPanel label="Pending Tasks"   val="4" />
+        <TaskPanel label="Average Score"   val="78.2%" />
       </div>
     )
   }

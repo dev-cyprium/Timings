@@ -1,12 +1,21 @@
 .Tasks {
   display: flex;
   font-family: 'Roboto Regular';
+  margin-top: 5rem;
 }
 
 .TasksPanel {
   background: #20202a;
-  margin: 4em;
   color: rgb(243, 243, 243);
+  flex: 0 0 12%;
+}
+
+.TasksPanel:not(:last-of-type) {
+  margin-right: 2.5em;
+}
+
+.TasksPanel:first-of-type {
+  margin-left: 8em;
 }
 
 .TasksPanel__title {
