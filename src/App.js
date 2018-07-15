@@ -14,9 +14,10 @@ class App extends Component {
       <Router>
         <div className="App">
           <Navigation />
-
-          <PropsRoute exact path={routes.tasks} component={Tasks} />
-          <PropsRoute exact path={routes.mentors} component={Mentors} />
+          <div class="content">
+            <PropsRoute exact path={routes.tasks} component={Tasks} />
+            <PropsRoute exact path={routes.mentors} component={Mentors} />
+          </div>
         </div>
       </Router>
     );

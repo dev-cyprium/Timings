@@ -1,0 +1,12 @@
+.Navigation-navbar {
+  font-size: 2.7rem;
+  background: #20202a;
+}
+
+.Navigation-navbar a {
+  display: block;
+  padding: .5em 4em .5em 1em;
+  text-decoration: none;
+  color: #c0c0c0;
+}
+

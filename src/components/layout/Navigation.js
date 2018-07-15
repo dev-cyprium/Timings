@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 
 import routes from '../router-ext/routes';
 
+import './navigation.css';
+
 const Navigation = () => (
-  <aside>
+  <aside class='Navigation-navbar'>
     <ul>
       <li>
         <Link to={routes.tasks}>Tasks</Link>
