@@ -10,7 +10,7 @@ class Tasks extends React.Component {
             Completed tasks
           </h3>
           <p className="TasksPanel__completed">
-            0
+            15
           </p>
         </div>
       </div>

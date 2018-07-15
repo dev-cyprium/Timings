@@ -1,5 +1,6 @@
 .Tasks {
   display: flex;
+  font-family: 'Roboto Regular';
 }
 
 .TasksPanel {
@@ -10,6 +11,7 @@
 
 .TasksPanel__title {
   font-size: 1.8rem;
+  font-weight: normal;
   text-align: center;
   padding: .75em;
   border-bottom: 1px solid silver;
