@@ -6,20 +6,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './navigation.css';
 
+const IconLink = ({icon, label, ...rest}) => (
+  <Link className="d-flex align-items-center" {...rest}>
+    <FontAwesomeIcon icon={icon} />
+    <span class="m-l-p33">{label}</span>
+  </Link>
+);
+
 const Navigation = () => (
   <aside className='Navigation-navbar'>
     <ul>
       <li>
-        <Link to={routes.tasks} className="d-flex align-items-center">
-          <FontAwesomeIcon icon="tasks" />
-          <span class="m-l-p33">Tasks</span>
-        </Link>
+        <IconLink label="Tasks" icon="tasks" to={routes.tasks} />
       </li>
       <li>
-        <Link to={routes.mentors} className="d-flex align-items-center">
-          <FontAwesomeIcon icon="users" />
-          <span class="m-l-p33">Mentors</span>
-        </Link>
+        <IconLink label="Mentors" icon="users" to={routes.mentors} />
       </li>
     </ul>
   </aside>
