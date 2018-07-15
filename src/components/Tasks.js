@@ -10,6 +10,7 @@ class Tasks extends React.Component {
         <TaskPanel label="Completed Tasks" val="15" />
         <TaskPanel label="Pending Tasks"   val="4" />
         <TaskPanel label="Average Score"   val="78.2%" />
+        <TaskPanel label="Taks per day"    val="0.3" />
       </div>
     )
   }
