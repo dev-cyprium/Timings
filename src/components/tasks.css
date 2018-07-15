@@ -2,6 +2,7 @@
   display: flex;
   font-family: 'Roboto Regular';
   margin-top: 5rem;
+  justify-content: center;
 }
 
 .TasksPanel {
