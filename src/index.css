@@ -30,3 +30,15 @@ html {
   background: #1a191f;
   width: 100%;
 }
+
+.d-flex {
+  display: flex !important;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.m-l-p33 {
+  margin-left: .33em;
+}
