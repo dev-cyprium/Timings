@@ -16,7 +16,10 @@ const Navigation = () => (
         </Link>
       </li>
       <li>
-        <Link to={routes.mentors}>Mentors</Link>
+        <Link to={routes.mentors} className="d-flex align-items-center">
+          <FontAwesomeIcon icon="users" />
+          <span class="m-l-p33">Mentors</span>
+        </Link>
       </li>
     </ul>
   </aside>

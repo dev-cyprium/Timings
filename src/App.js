@@ -10,9 +10,10 @@ import Mentors from './components/Mentors';
 
 /* Font Awesome */
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faTasks } from '@fortawesome/free-solid-svg-icons'
+import { faTasks, faUsers } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faTasks);
+library.add(faUsers);
 
 class App extends Component {
   render() {
