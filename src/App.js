@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import Navigation from './components/layout/Header';
+import routes from './components/router-ext/routes';
+import Navigation from './components/layout/Navigation';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import PropsRoute from './components/router-ext/PropsRoute';
 
@@ -14,8 +15,8 @@ class App extends Component {
         <div className="App">
           <Navigation />
 
-          <PropsRoute exact path='/tasks' component={Tasks} />
-          <PropsRoute exact path='/mentors' component={Mentors} />
+          <PropsRoute exact path={routes.tasks} component={Tasks} />
+          <PropsRoute exact path={routes.mentors} component={Mentors} />
         </div>
       </Router>
     );
