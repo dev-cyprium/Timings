@@ -10,13 +10,13 @@
 }
 
 .Panel--background {
-  background: #20202a;
+  background:rgba(32, 32, 41, 0.55);
 }
 
 /* TaskPanel */
 
 .TaskPanel {
-  background: #20202a;
+  background:rgba(32, 32, 41, 0.55);
   flex: 1;
   margin: 1em;
 }
@@ -49,3 +49,13 @@
   font-size: 2rem;
   padding: 1em 0;
 }
+
+.Task__title {
+  font-size: 3rem;
+}
+
+.Task__title--uppcase {
+  text-transform: uppercase;
+}
+
+
