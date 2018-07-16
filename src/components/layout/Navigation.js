@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './navigation.css';
 
+import Profile from './Profile';
+
 const IconLink = ({icon, label, ...rest}) => (
   <Link className="d-flex align-items-center" {...rest}>
     <FontAwesomeIcon icon={icon} />
@@ -15,6 +17,7 @@ const IconLink = ({icon, label, ...rest}) => (
 
 const Navigation = () => (
   <aside className='Navigation-navbar'>
+    <Profile />
     <ul>
       <li>
         <IconLink label="Tasks" icon="tasks" to={routes.tasks} />
