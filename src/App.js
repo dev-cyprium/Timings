@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import routes from './components/router-ext/routes';
-import Navigation from './components/layout/Navigation';
+import routes from './router-ext/routes';
+import Navigation from './layout/Navigation';
 import { BrowserRouter as Router } from 'react-router-dom';
-import PropsRoute from './components/router-ext/PropsRoute';
+import PropsRoute from './router-ext/PropsRoute';
 
-import Tasks from './components/Tasks';
-import Mentors from './components/Mentors';
+import Tasks from './task/Tasks';
+import Mentors from './mentor/Mentors';
 
 /* Font Awesome */
 import { library } from '@fortawesome/fontawesome-svg-core'
