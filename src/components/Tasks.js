@@ -7,10 +7,10 @@ class Tasks extends React.Component {
   render() {
     return (
       <div className="Tasks">
-        <TaskPanel label="Completed Tasks" val="15" />
-        <TaskPanel label="Pending Tasks"   val="4" />
-        <TaskPanel label="Average Score"   val="78.2%" />
-        <TaskPanel label="Taks per day"    val="0.3" />
+        <TaskPanel label="Completed Tasks" val="15" color="neon-blue" />
+        <TaskPanel label="Pending Tasks"   val="4"  color="neon-blue" />
+        <TaskPanel label="Average Score"   val="78.2%" color="neon-green" />
+        <TaskPanel label="Taks per day"    val="0.3" color="neon-blue" />
       </div>
     )
   }

@@ -1,20 +1,19 @@
 .Tasks {
   display: flex;
   font-family: 'Roboto Regular';
-  margin-top: 5em auto;
   justify-content: center;
   max-width: 102.4rem;
+  margin: 5em auto;
 }
 
-.TasksPanel {
+.TaskPanel {
   background: #20202a;
   color: rgb(243, 243, 243);
   flex: 1;
   margin: 1em;
 }
 
-
-.TasksPanel__title {
+.TaskPanel__title {
   font-size: 1.8rem;
   font-weight: normal;
   text-align: center;
@@ -22,8 +21,16 @@
   border-bottom: 1px solid silver;
 }
 
-.TasksPanel__completed {
+.TaskPanel__completed {
   font-size: 2.5rem;
   text-align: center;
   padding: 1.4em .4em;
+}
+
+.TaskPanel__completed--neon-blue {
+  color: #75c3e6;
+}
+
+.TaskPanel__completed--neon-green {
+  color: #39ff14;
 }
