@@ -1,4 +1,6 @@
-.Tasks {
+/* Panel */
+
+.Panel {
   display: flex;
   font-family: 'Roboto Regular';
   justify-content: center;
@@ -6,6 +8,12 @@
   margin: 5em auto;
   color: rgb(243, 243, 243);
 }
+
+.Panel--background {
+  background: #20202a;
+}
+
+/* TaskPanel */
 
 .TaskPanel {
   background: #20202a;
@@ -33,4 +41,11 @@
 
 .TaskPanel__completed--neon-green {
   color: #39ff14;
+}
+
+/* Task list */
+
+.TaskList__title h1 {
+  font-size: 2rem;
+  padding: 1em 0;
 }
