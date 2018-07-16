@@ -5,7 +5,7 @@ import Navigation from './layout/Navigation';
 import { BrowserRouter as Router } from 'react-router-dom';
 import PropsRoute from './router-ext/PropsRoute';
 
-import Tasks from './task/Tasks';
+import TaskView from './task/TaskView';
 import Mentors from './mentor/Mentors';
 
 /* Font Awesome */
@@ -22,7 +22,7 @@ class App extends Component {
         <div className="App">
           <Navigation />
           <div className="content">
-            <PropsRoute exact path={routes.tasks} component={Tasks} />
+            <PropsRoute exact path={routes.tasks} component={TaskView} />
             <PropsRoute exact path={routes.mentors} component={Mentors} />
           </div>
         </div>

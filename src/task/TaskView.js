@@ -19,7 +19,7 @@ const tasks = [
 ]
 
 // TODO: rename TaskPAnel component to taskpanelinfo
-class Tasks extends React.Component {
+class TaskView extends React.Component {
   render() {
     return (
       <div>
@@ -37,4 +37,4 @@ class Tasks extends React.Component {
   }
 }
 
-export default Tasks;
+export default TaskView;
