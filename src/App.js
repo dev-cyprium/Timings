@@ -19,6 +19,10 @@ library.add(faTasks);
 library.add(faUsers);
 
 class App extends Component {
+  componentDidMount() {
+    document.title = "Progress";
+  }
+
   render() {
     return (
       <Router>
