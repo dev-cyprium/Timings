@@ -1,0 +1,27 @@
+.Profile {
+  display: flex;
+  margin: .5em;
+}
+
+.Profile__image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.Profile__name {
+  margin-left: .5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #c0c0c0;
+}
+
+.Profile__name h1 {
+  font-size: 2rem;
+}
+
+.Profile__name span {
+  font-size: 1.4rem;
+}
