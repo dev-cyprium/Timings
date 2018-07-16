@@ -15,17 +15,21 @@ const IconLink = ({icon, label, ...rest}) => (
   </Link>
 );
 
+const IconLinkList = () => (
+  <ul>
+    <li>
+      <IconLink label="Tasks" icon="tasks" to={routes.tasks} />
+    </li>
+    <li>
+      <IconLink label="Mentors" icon="users" to={routes.mentors} />
+    </li>
+  </ul>
+);
+
 const Navigation = () => (
   <aside className='Navigation-navbar'>
     <Profile />
-    <ul>
-      <li>
-        <IconLink label="Tasks" icon="tasks" to={routes.tasks} />
-      </li>
-      <li>
-        <IconLink label="Mentors" icon="users" to={routes.mentors} />
-      </li>
-    </ul>
+    <IconLinkList />
   </aside>
 );
 
