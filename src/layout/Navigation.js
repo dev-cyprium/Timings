@@ -11,7 +11,7 @@ import Profile from './Profile';
 const IconLink = ({icon, label, ...rest}) => (
   <Link className="d-flex align-items-center" {...rest}>
     <FontAwesomeIcon icon={icon} />
-    <span class="m-l-p33">{label}</span>
+    <span className="m-l-p33">{label}</span>
   </Link>
 );
 
