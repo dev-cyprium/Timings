@@ -4,11 +4,11 @@
   justify-content: center;
   max-width: 102.4rem;
   margin: 5em auto;
+  color: rgb(243, 243, 243);
 }
 
 .TaskPanel {
   background: #20202a;
-  color: rgb(243, 243, 243);
   flex: 1;
   margin: 1em;
 }
