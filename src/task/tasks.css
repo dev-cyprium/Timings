@@ -10,13 +10,13 @@
 }
 
 .Panel--background {
-  background:rgba(32, 32, 41, 0.55);
+  background:rgba(32, 32, 41, 0.8);
 }
 
 /* TaskPanel */
 
 .TaskPanel {
-  background:rgba(32, 32, 41, 0.55);
+  background:rgba(32, 32, 41, 0.7);
   flex: 1;
   margin: 1em;
 }
