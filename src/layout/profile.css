@@ -23,5 +23,7 @@
 }
 
 .Profile__name span {
+  padding-top: .5em;
   font-size: 1.4rem;
+  color: #ff9c0b;
 }

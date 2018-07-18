@@ -51,19 +51,51 @@
   color: #39ff14;
 }
 
+.TaskPanel__completed--neon-orange {
+  color: #ff9c0b;
+}
+
+.TaskPanel__completed--neon-pink {
+  color: #ff0bcf;
+}
+
+
 /* Task list */
+.TaskList {
+  font-size: 1.8rem;
+  font-family: 'Roboto Thin';
+  font-weight: normal;
+  width:100%;
+}
 
-.TaskList__title h1 {
-  font-size: 2rem;
+.TaskList a {
+  text-decoration: none;
+  color: #75c3e6;
+}
+
+.TaskList__title {
+  text-align: center;
   padding: 1em 0;
+  border-bottom: 1px solid #545353;
 }
 
-.Task__title {
-  font-size: 3rem;
+.TaskList__head {
+  font-weight: bold;
+  color:#ff0bcf;
+  display:flex;
+  justify-content: space-around;
+  font-size:2rem;
+  padding:1.45em 0;
 }
 
-.Task__title--uppcase {
-  text-transform: uppercase;
+.TaskList__body {
+  min-height: 10rem;
+}
+
+.Task {
+  display:flex;
+  justify-content: space-around;
+  padding: 1em;
 }
 
 @media only screen and (max-width:1300px) {
