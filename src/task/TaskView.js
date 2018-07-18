@@ -22,14 +22,14 @@ const tasks = [
 class TaskView extends React.Component {
   render() {
     return (
-      <div>
+      <div className='content--main'>
         <div className="Panel">
           <TaskPanelInfo label="Completed Tasks" val="15"    color="neon-blue" />
           <TaskPanelInfo label="Pending Tasks"   val="4"     color="neon-blue" />
           <TaskPanelInfo label="Average Score"   val="78.2%" color="neon-green" />
           <TaskPanelInfo label="Taks per day"    val="0.3"   color="neon-blue" />
         </div>
-        <div className="Panel Panel--background">
+        <div className="Panel background">
           <TaskList tasks={tasks} />
         </div>
       </div>

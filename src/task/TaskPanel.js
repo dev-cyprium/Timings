@@ -10,7 +10,7 @@ const resolveClasses = (color) => {
 const TaskPanel = ({label, val, color = null}) => {
   const classList = resolveClasses(color);
   return (
-    <div className="TaskPanel">
+    <div className="TaskPanel background">
       <h3 className="TaskPanel__title">
         {label}
       </h3>
