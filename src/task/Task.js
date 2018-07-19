@@ -2,10 +2,10 @@ import React from 'react';
 
 const Task = (props) => (
   <div className="Task">
-    <h1 className="Task__title Task__title--uppcase">Task #1</h1>
-    <h2>
-      <strong>Stefan Kupresak</strong>
-    </h2>
+      <p>Task #1</p>
+      <p>Stefan Kupresak</p>
+      <p>18 July 2018</p>
+      <a href="#">Details</a>
   </div>
 );
 

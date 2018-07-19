@@ -4,11 +4,18 @@ import Task from './Task';
 
 const TaskList = () => (
   <div className="TaskList">
-    <div className="TaskList__title">
-      <h1>List of available tasks</h1>
+    <h3 className="TaskList__title">List of available tasks</h3>
+    <div className="TaskList__head">
+      <p>Task</p>
+      <p>User</p>
+      <p>Date</p>
+      <p>Details</p>
     </div>
+    <div className="TaskList__body">
       <Task />
       <Task />
+      <Task />
+    </div>
   </div>
 );
 
